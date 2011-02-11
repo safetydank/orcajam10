@@ -1,0 +1,47 @@
+Star!Child!Man!Tra!
+
+
+ABOUT
+
+Guide the star child.  Touch light to grow and speed up.  Avoid shrinking black
+holes.
+
+Rendered with 1 quad, 1 shader and 1 texture.
+
+
+REQUIREMENTS
+
+OpenGL 2.0+
+Hardware shader support
+
+
+TROUBLESHOOTING AUDIO INPUT
+
+The game tries to recognize your system's default audio input device. If you
+have more than one device connected this may fail.  To manually set your audio
+input device edit the file "audio.ini" and change the first line to the
+appropriate device id.
+
+The complete list of id's found on your system is listed in "audio.ini".  This
+is recreated every time the app is run.
+
+
+CREDITS
+
+Written by safetydank at OrcaJam Sep 17-19, 2010
+Built with Cinder and PortAudio.
+
+
+CONTACT
+
+email: dan@expandingbrain.com
+code : github.com/safetydank
+
+
+EXCUSES FOR THE SORRY STATE ITS IN
+
+Ran out of time to add music, gameplay due to ferry delays, laptop video driver
+errors (*), time constraints, cat ate my homework etc etc.
+
+(*) negative frag coords, wtf???
+

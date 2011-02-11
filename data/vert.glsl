@@ -1,0 +1,8 @@
+uniform sampler2D tex;
+
+void main()
+{
+	gl_TexCoord[0].xy = gl_MultiTexCoord0.xy;
+    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+}
+
